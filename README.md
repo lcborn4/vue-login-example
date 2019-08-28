@@ -1,4 +1,7 @@
-# vue-login
+Full Credit to 
+https://github.com/WebDevChallenges/vue-login
+
+# vue-login-example
 
 ![Demo](demo.gif)
 
