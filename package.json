@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "heroku-postbuild": "echo Skip build on Heroku",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -46,6 +47,10 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
-
+  ],
+  "engines": {
+    "node": "10.15.0",
+    "npm": "6.9.0"
+  },
+  "heroku-run-build-script": true
 }
